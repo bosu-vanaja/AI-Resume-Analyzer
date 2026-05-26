@@ -1,0 +1,69 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* 🔥 RESULT BOX */
+#result {
+  margin-top: 20px;
+  padding: 20px;
+  background: white;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+/* 🧠 Skills */
+.skills {
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* 📊 Score */
+.score {
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* 💡 Suggestions */
+.suggestions {
+  margin-top: 10px;
+  padding: 10px;
+  background: #fff3cd;
+  border-left: 5px solid #ffc107;
+  border-radius: 5px;
+}
+
+.suggestions li {
+  margin-bottom: 5px;
+}
