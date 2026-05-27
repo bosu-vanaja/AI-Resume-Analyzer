@@ -16,6 +16,7 @@ An AI-powered Resume Analyzer web application that extracts skills from resumes,
 ---
 
 ## Tech Stack
+
 ### Frontend:
 - HTML
 - CSS
@@ -33,29 +34,8 @@ An AI-powered Resume Analyzer web application that extracts skills from resumes,
 
 ---
 
-##Project Structure
-AI-resume-analyzer/
-│
-├── backend/
-│ ├── app.py
-│ ├── analyzer.py
-│ ├── pdf_parser.py
-│ ├── skill_extractor.py
-│
-├── frontend/
-│ ├── index.html
-│ ├── style.css
-│ ├── script.js
-│
-├── demo_images/
-│ ├── image1.jpg
-│ ├── image2.jpg
-│ ├── image3.jpg
-│
-└── README.md
----
+How to Run the Project:
 
-How to Run the Project
 ### 1️⃣ Clone Repository
 ```bash
 git clone https://github.com/bosu-vanaja/AI-Resume-Analyzer.git
@@ -69,7 +49,8 @@ python app.py
 Open:
 frontend/index.html
 
-API Endpoint
+API Endpoint:
+
 POST /analyze
 Uploads resume and returns extracted data.
 Response Example:
@@ -79,13 +60,15 @@ Response Example:
   "suggestions": ["Add more project details", "Use bullet points"]
 }
 
-Demo
+Demo_Images:
+
 Add your screenshots inside demo_images/ folder and update README like this:
 ![Home](demo_images/image1.jpg)
 ![Upload](demo_images/image2.jpg)
 ![Result](demo_images/image3.jpg)
 
-Future Improvements
+Future Improvements:
+
 AI-based resume ranking
 Better ATS scoring model
 Cloud deployment (Render / Vercel)
