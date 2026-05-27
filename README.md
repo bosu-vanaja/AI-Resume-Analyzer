@@ -81,6 +81,7 @@ Multi-format resume support (DOCX, TXT)
 
 ---
 
-## Author
+## Author:
 
 Built by "BOSU VANAJA"
+
