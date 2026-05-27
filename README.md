@@ -1,32 +1,97 @@
 # AI Resume Analyzer
 
-AI Resume Analyzer is a full-stack web application built using Python, Flask, HTML, CSS, and JavaScript that analyzes uploaded resumes, identifies technical skills, calculates ATS scores, and provides smart suggestions for resume improvement.
+An AI-powered Resume Analyzer web application that extracts skills from resumes, calculates ATS score, and provides improvement suggestions using Python Flask backend.
+
+---
 
 ## Features
-- Resume PDF Upload
-- Skill Extraction
-- ATS Score Calculation
-- Resume Suggestions
-- Software + Hardware Skill Detection
-- Clean UI
-- Fast Analysis
 
-## Technologies Used
+- Upload PDF resumes
+- Extract skills automatically from resume text
+- Generate ATS (Applicant Tracking System) score (0–100)
+- Provide resume improvement suggestions
+- Fast backend processing using Flask API
+- Simple and clean frontend UI
 
-### Frontend
+---
+
+## Tech Stack
+### Frontend:
 - HTML
 - CSS
 - JavaScript
-
-### Backend
-- Python
-- Flask
-
-### Libraries Used
+### Backend:
+- Python 
 - Flask
 - Flask-CORS
+
+### Libraries Used:
+- flask
+- flask-cors
 - PyPDF2
 - re (Regular Expressions)
-  
-## Author
-Bosu Vanaja
+
+---
+
+##Project Structure
+AI-resume-analyzer/
+│
+├── backend/
+│ ├── app.py
+│ ├── analyzer.py
+│ ├── pdf_parser.py
+│ ├── skill_extractor.py
+│
+├── frontend/
+│ ├── index.html
+│ ├── style.css
+│ ├── script.js
+│
+├── demo_images/
+│ ├── image1.jpg
+│ ├── image2.jpg
+│ ├── image3.jpg
+│
+└── README.md
+---
+
+How to Run the Project
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/bosu-vanaja/AI-Resume-Analyzer.git
+cd AI-resume-analyzer
+2️⃣ Install Dependencies
+pip install flask flask-cors PyPDF2
+3️⃣ Run Backend
+cd backend
+python app.py
+4️⃣ Open Frontend
+Open:
+frontend/index.html
+
+API Endpoint
+POST /analyze
+Uploads resume and returns extracted data.
+Response Example:
+{
+  "skills": ["python", "vlsi", "verilog"],
+  "ats_score": 90,
+  "suggestions": ["Add more project details", "Use bullet points"]
+}
+
+Demo
+Add your screenshots inside demo_images/ folder and update README like this:
+![Home](demo_images/image1.jpg)
+![Upload](demo_images/image2.jpg)
+![Result](demo_images/image3.jpg)
+
+Future Improvements
+AI-based resume ranking
+Better ATS scoring model
+Cloud deployment (Render / Vercel)
+Login system for users
+Multi-format resume support (DOCX, TXT)
+
+Author
+
+Built by "BOSU VANAJA"
