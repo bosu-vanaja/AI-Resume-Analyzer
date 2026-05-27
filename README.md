@@ -34,9 +34,9 @@ An AI-powered Resume Analyzer web application that extracts skills from resumes,
 
 ---
 
-How to Run the Project:
+## How to Run the Project:
 
-### 1️⃣ Clone Repository
+1️⃣ Clone Repository
 ```bash
 git clone https://github.com/bosu-vanaja/AI-Resume-Analyzer.git
 cd AI-resume-analyzer
@@ -60,14 +60,14 @@ Response Example:
   "suggestions": ["Add more project details", "Use bullet points"]
 }
 
-Demo_Images:
+## Demo_Images:
 
 Add your screenshots inside demo_images/ folder and update README like this:
 ![Home](demo_images/image1.jpg)
 ![Upload](demo_images/image2.jpg)
 ![Result](demo_images/image3.jpg)
 
-Future Improvements:
+## Future Improvements:
 
 AI-based resume ranking
 Better ATS scoring model
@@ -75,6 +75,6 @@ Cloud deployment (Render / Vercel)
 Login system for users
 Multi-format resume support (DOCX, TXT)
 
-Author
+## Author
 
 Built by "BOSU VANAJA"
