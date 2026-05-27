@@ -60,12 +60,16 @@ Response Example:
   "suggestions": ["Add more project details", "Use bullet points"]
 }
 
+----
+
 ## Demo_Images:
 
 Add your screenshots inside demo_images/ folder and update README like this:
 ![Home](demo_images/image1.jpg)
 ![Upload](demo_images/image2.jpg)
 ![Result](demo_images/image3.jpg)
+
+---
 
 ## Future Improvements:
 
@@ -74,6 +78,8 @@ Better ATS scoring model
 Cloud deployment (Render / Vercel)
 Login system for users
 Multi-format resume support (DOCX, TXT)
+
+---
 
 ## Author
 
